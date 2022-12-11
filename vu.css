@@ -39,7 +39,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-/* todolist */
+
 
 .hihi{
     font-size: 30px;
@@ -78,15 +78,19 @@ body{
     background-color: var(--Background-dark);
     border-radius: 12px;
 }
-/*  BODY------------------------------- */
+
+
+
 .body{
     margin-top: 63px;
 }
-/* Add task */
-.add-task{
+
+
+
+.tuan{
     display: flex;
 }
-.add-task_blank{
+.tuan_blank{
     flex: 1;
     font-size: 19px;
     color: var(--Text-color);
@@ -94,7 +98,7 @@ body{
     border-bottom: 4px solid var(--Background-dark);
     background-color: transparent;
 }
-.add-task_button{
+.tuan_button{
     font-size: 24px;
     border: none;
     border-radius: 12px;
@@ -105,11 +109,20 @@ body{
     margin-left: 10px;
     cursor: pointer;
 }
-/* Task */
-.task{
+
+
+.gia{
+    color: var(--Red);
+}
+.e{
+    color: var(--Green);
+}
+
+
+.bu{
     margin-top: 40px;
 }
-.task_item{
+.bu_item{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -121,26 +134,20 @@ body{
     border-left: 5px solid var(--Red) ;
     margin-bottom: 22px;
 }
-.task_item a{
+.bu_item a{
     color: var(--Text-color);
     text-decoration: none;
 }
-.task_item a:visited{
+.bu_item a:visited{
     color: var(--Text-color);
 }
-.task_item-infor{
+.bu_item-infor{
     margin-left: 14px;
 }
-.task_item-icon{
+.bu_item-icon{
     
 }
 .item-icon{
     font-size: 22px;
     margin: 10px;
-}
-.trash{
-    color: var(--Red);
-}
-.edit{
-    color: var(--Green);
 }
